@@ -10,7 +10,7 @@ import java.util.Random;
 
 public class Main extends Thread {
 	static String pwdgen = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "abcdefghijklmnopqrstuvwxyz" +
-						 						 "0123456789@#$%^&*()_+=-;:?\\/,.<>";
+								"0123456789@#$%^&*()_+=-;:?\\/,.<>";
 	static int length = pwdgen.length();
 	static int count = 0;
 	static String pwd = "";
