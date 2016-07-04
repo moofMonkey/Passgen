@@ -21,7 +21,7 @@ public class Main extends Thread {
 		System.out.print("< ");
 		try {
 			count = Integer.parseInt(in.readLine());
-		} catch(Throwable t) { throw new Throwable("СУКА, НЕПРАВИЛЬНОЕ ЗНАЧЕНИЕ!"); }
+		} catch(Throwable t) { throw new Throwable("Invalid parameter."); }
 		System.out.println();
 		System.out.println("> Use spec. chars (true/false - boolean)?");
 		System.out.print("< ");
@@ -35,7 +35,7 @@ public class Main extends Thread {
 						 "0123456789";
 				length = pwdgen.length();
 			}
-		} catch(Throwable t) { throw new Throwable("СУКА, НЕПРАВИЛЬНОЕ ЗНАЧЕНИЕ!"); }
+		} catch(Throwable t) { throw new Throwable("Invalid parameter."); }
 		System.out.println();
 		System.out.println("> Use unicode && UTF-8 (true/false - boolean)?");
 		System.out.print("< ");
@@ -45,7 +45,7 @@ public class Main extends Thread {
 						+ "رذدخحچجثتپباقفغعظطضصشسژزیهونملگک" + "رذدخحچجثتپباقفغعظطضصشسژزیهونملگک";
 				length = pwdgen.length();
 			}
-		} catch(Throwable t) { throw new Throwable("СУКА, НЕПРАВИЛЬНОЕ ЗНАЧЕНИЕ!"); }
+		} catch(Throwable t) { throw new Throwable("Invalid parameter."); }
 		System.out.println();
 		
 		try {
