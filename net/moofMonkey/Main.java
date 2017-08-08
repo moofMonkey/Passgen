@@ -63,7 +63,6 @@ public class Main extends Thread {
 				}
 				pwd += pwdgen.charAt(rand.nextInt(length));
 				i--;
-				if(i%5 == 0) System.gc();
 			}
 			out.write(pwd);
 			out.close();
